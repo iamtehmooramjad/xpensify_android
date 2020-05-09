@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Activity.SplashActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/expenseLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/expenselogo"
+        android:layout_centerInParent="true"
+        app:civ_border_color="@color/colorText"
+        app:civ_border_width="1dp"
+        />
+
+
+    <TextView
+        android:id="@+id/logoTV"
+        android:text="@string/app_name"
+        android:layout_below="@id/expenseLogo"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:fontFamily="@font/proxima_nova_reg"
+        android:textColor="@color/colorText"
+        android:layout_width="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

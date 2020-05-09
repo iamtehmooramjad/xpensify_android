@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/expense_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:gravity="center"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:layout_weight="1"
+        android:maxLength="10"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/expense_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timestamp"
+        android:gravity="center"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="18sp"
+        android:maxLength="10"
+        android:textColor="@color/colorText"
+        android:layout_weight="1"
+        android:maxLines="1"
+        />
+    <ImageView
+
+        android:id="@+id/expense_more"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_arrow_right"
+        />
+
+</LinearLayout>

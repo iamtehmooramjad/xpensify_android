@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/white"
+android:padding="10dp">
+
+<ImageView
+    android:id="@+id/userImgCon"
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:src="@drawable/user"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_alignParentLeft="true"/>
+
+<TextView
+    android:id="@+id/contactNameCon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tehmoor Amjad"
+    android:layout_toEndOf="@id/userImgCon"
+    android:textSize="18sp"/>
+
+<TextView
+    android:id="@+id/contactNumberCon"
+    android:layout_below="@id/contactNameCon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="03094143430"
+    android:layout_toEndOf="@id/userImgCon"
+    android:layout_marginTop="5dp"
+    android:textSize="14sp"/>
+
+
+
+
+</RelativeLayout>

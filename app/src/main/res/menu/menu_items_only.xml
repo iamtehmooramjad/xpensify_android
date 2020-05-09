@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_signout"
+        android:title="Sign out"
+        android:icon="@drawable/logout"
+        android:checkable="false"
+        />
+
+    <item
+        android:id="@+id/item_editProfile"
+        android:title="Edit Profile"
+        android:icon="@drawable/settings"
+        android:checkable="false"/>
+
+    <item
+        android:id="@+id/item_contactUs"
+        android:checkable="false"
+        android:icon="@drawable/contactus"
+        android:title="Contact Us"
+        />
+
+    <item
+        android:id="@+id/item_howitworks"
+        android:title="How it Works ?"
+        android:icon="@drawable/howitworks"
+        android:checkable="false"
+        />
+
+    <item
+        android:id="@+id/item_about"
+        android:title="About"
+        android:icon="@drawable/about"
+        android:checkable="false"
+        />
+</menu>

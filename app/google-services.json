@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "287513280644",
+    "firebase_url": "https://xpensify-e9ce3.firebaseio.com",
+    "project_id": "xpensify-e9ce3",
+    "storage_bucket": "xpensify-e9ce3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287513280644:android:0bf0e208c32bbf415702d1",
+        "android_client_info": {
+          "package_name": "com.dev175.xpensify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287513280644-b12924jt6j8njhboeb5g389sks7um1r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gTPgslWNUFRhQ66aVzqZQnpOz5gQ65Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287513280644-b12924jt6j8njhboeb5g389sks7um1r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

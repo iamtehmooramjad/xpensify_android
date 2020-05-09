@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/expense_debitorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/expense_debitorName_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tehmoor Amjad"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/expense_debitorExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Share"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/expense_debitorExpense_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/expense_debitorPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expense_debitorPhone_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0300-1231231"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

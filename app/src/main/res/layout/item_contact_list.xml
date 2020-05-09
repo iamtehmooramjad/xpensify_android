@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/userImg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/user"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tehmoor Amjad"
+       android:layout_toEndOf="@id/userImg"
+        android:textStyle="bold"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/contactNumber"
+        android:layout_below="@id/contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03094143430"
+        android:layout_toEndOf="@id/userImg"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/contactStatus"
+        android:layout_below="@id/contactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inite your friend !"
+        android:maxLines="1"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/userImg"
+        android:textSize="12sp"/>
+
+
+    <CheckBox
+        android:id="@+id/cbContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:focusable="false"
+        android:enabled="false"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>
